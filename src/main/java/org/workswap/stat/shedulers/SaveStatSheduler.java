@@ -1,6 +1,5 @@
 package org.workswap.stat.shedulers;
 
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.workswap.core.services.command.StatisticCommandService;
@@ -10,7 +9,6 @@ import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
-@EnableScheduling
 public class SaveStatSheduler {
 
     private final StatisticCommandService statisticCommandService;
