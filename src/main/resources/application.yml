@@ -1,0 +1,7 @@
+spring:
+  config:
+    import:
+      - optional:file:./config/oauth.yml
+      - optional:file:./config/database.yml
+      - optional:file:./config/main.yml
+      - optional:file:./config/logging.yml
